@@ -125,3 +125,34 @@ header .jumbotron {
 	border-radius: 0 !important;
 	margin-bottom: 0px;
 }
+header .jumbotron h1{
+	font-size: clamp(52px, 10vw, 100px);
+  	font-weight: 800;
+  	letter-spacing: 6px;
+  	text-transform: uppercase;
+  	color: #ffffff;
+  	margin-bottom: 16px;
+}
+header .jumbotron h2{
+	font-size: clamp(14px, 2vw, 18px);
+  	font-weight: 300;
+  	color: var(--text-muted);
+  	letter-spacing: 1px;
+  	margin-bottom: 36px;
+}
+
+.btn-primary{
+  border: none;
+  padding: 14px 40px;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  border-radius: 4px;
+  text-decoration: none;
+  display: inline-block;
+  transition: background 0.2s, transform 0.15s;
+}
+.btn-primary:hover{
+	color: #fff;
+  transform: translateY(-2px);
+}
