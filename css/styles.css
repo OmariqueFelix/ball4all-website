@@ -121,6 +121,7 @@ section{
 	height: 100vh;
 
 }
-.jumbotron {
+header .jumbotron {
 	border-radius: 0 !important;
+	margin-bottom: 0px;
 }
