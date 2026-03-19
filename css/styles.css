@@ -36,9 +36,15 @@
 }
 
 .poppins-bold {
-  font-family: "Poppins", sans-serif;
-  font-weight: 800;
-  font-style: normal;
+  font-size: 40px;
+	font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 48px;
+  position: relative;
+  display: inline-block;
 }
 
 .poppins-regular {
@@ -145,7 +151,6 @@ header .jumbotron h2{
   border: none;
   padding: 14px 40px;
   font-size: 15px;
-  font-weight: 600;
   letter-spacing: 1px;
   border-radius: 4px;
   text-decoration: none;
@@ -155,4 +160,8 @@ header .jumbotron h2{
 .btn-primary:hover{
 	color: #fff;
   transform: translateY(-2px);
+}
+
+.sc-testimonials{
+	background-color: #F7F7F5;
 }
