@@ -4,49 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Matchmaking</title>
-    <!-- Bootstrap -->
+
+       <!-- Bootstrap -->
     <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com/">
-    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
-    <link href="css/css2.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="https://tienpham159.github.io/ball4all-website/index.html">
-            <img class="navbar-logo" src="images/ball4all-logo-monogram-06.svg" width="100" height="62" alt="Ball4All logo">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-  <ul class="navbar-nav mr-auto">
-    <li class="nav-item m-lg-2 active">
-      <a class="nav-link-navbar poppins-regular" href="https://tienpham159.github.io/ball4all-website/index.html">Home <span class="sr-only">(current)</span></a>
-    </li>
-    <li class="nav-item m-lg-2">
-      <div class="dropdown show">
-        <a class="dropdown-toggle nav-link-navbar poppins-regular m-lg-2 active" role="link" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Services
-        </a>
-        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-          <a class="dropdown-item" href="https://tienpham159.github.io/ball4all-website/ballerpassport.html">Baller Passport</a>
-          <a class="dropdown-item" href="https://tienpham159.github.io/ball4all-website/pitch-booking.html">Pitch Booking</a>
-          <a class="dropdown-item" href="https://tienpham159.github.io/ball4all-website/matchmaking.html">Matchmaking</a>
-        </div>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    
+        <a class="navbar-brand" href="#">
+		      <img class="navbar-logo" src="images/ball4all logo-monogram-06.png" width="100" height="62,5" alt="Ball4All logo">
+			  </a>
+        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+      
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active"> <a class="nav-link poppins-regular" href="index.html">Home <span class="sr-only"></span></a> </li>
+          <li class="nav-item active"> <a class="nav-link poppins-regular" href="index.html#about-us">About Us<span class="sr-only"></span></a> </li>
+           
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle poppins-regular" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Our Services</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="ballerpassport.html">Baller Passport </a> 
+              <a class="dropdown-item" href="pitch-booking.html">Pitch Booking</a>
+              <a class="dropdown-item" href="matchmaking.html">Match-making</a>
+            </div>
+          </li>
+          
+          <li class="nav-item active"> <a class="nav-link poppins-regular" href="index.html#testimonials">Testimonials<span class="sr-only">(current)</span></a> </li>
+          
+         
+			 <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle poppins-regular" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Corporate&nbsp; </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="corporate.html">Corporate 1</a> 
+              <a class="dropdown-item" href="corporate2.html">Corporate 2</a>
+            </div>
+          </li>
+        </ul>
+        <!--<form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2 poppins-regular" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0 poppins-regular" type="submit">Search</button>
+        </form>-->
       </div>
-    </li>
-    <li class="nav-item m-lg-2">
-      <a class="nav-link-navbar poppins-regular" href="https://tienpham159.github.io/ball4all-website/corporate2.html">Corporate</a>
-    </li>
-  </ul>
-</div>
-
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2 poppins-regular" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0 poppins-regular" type="submit">Search</button>
-            </form>
     </nav>
+
     <!-- end of nav -->
     <div class="container">
         <div class="row">
@@ -96,36 +102,52 @@
                 <h2 class="poppins-bold heading" id="matches">YOUR MATCHES</h2>
             </div>
         </div>
-        <div class="row justify-content-center mb-5">
+        <div class="row justify-content-between mb-5">
             <div class="row col-lg-3 col-md-6 col-sm-12">
                 <div class="card" style="width: 18rem;">
-                    <img src="images/hanguyen.svg" class="card-img-top" alt="Kenneth Tran">
+                    <img src="images/matchmaking-1.jpg" class="card-img-top" alt="Kenneth Tran">
                     <div class="card-body">
-                        <p class="card-text poppins-bold text-center">Pascal Shikam&nbsp;</p>
+                        <p class="card-text poppins-bold text-center">Pascal Shikam</p>
+                        <p><strong>Location:</strong> Breda Noord <br>
+                        <strong>Position:</strong> Attacker<br>
+                        <strong>Matches Played:</strong> 15<br>
+                        <strong>Last Played:</strong> Tuesday, March 10th 2026</p>
                     </div>
                 </div>
             </div>
             <div class="row col-lg-3 col-md-6 col-sm-12">
                 <div class="card" style="width: 18rem;">
-                    <img src="images/isaac-ramirez.svg" class="card-img-top" alt="Daan Beukers">
+                    <img src="images/matchmaking-2.jpg" class="card-img-top" alt="Daan Beukers">
                     <div class="card-body">
                         <p class="card-text poppins-bold text-center">Daan Beukers</p>
+                        <p><strong>Location:</strong> Breda Noord <br>
+                        <strong>Position:</strong> Attacker<br>
+                        <strong>Matches Played:</strong> 15<br>
+                        <strong>Last Played:</strong> Tuesday, March 10th 2026</p>
                     </div>
                 </div>
             </div>
             <div class="row col-lg-3 col-md-6 col-sm-12">
                 <div class="card" style="width: 18rem;">
-                    <img src="images/ludovic.svg" class="card-img-top" alt="Gerrit Boschman">
+                    <img src="images/matchmaking-3.jpg" class="card-img-top" alt="Gerrit Boschman">
                     <div class="card-body">
                         <p class="card-text poppins-bold text-center">Gerrit Boschman</p>
+                        <p><strong>Location:</strong> Breda Noord <br>
+                        <strong>Position:</strong> Attacker<br>
+                        <strong>Matches Played:</strong> 15<br>
+                        <strong>Last Played:</strong> Tuesday, March 10th 2026</p>
                     </div>
                 </div>
             </div>
             <div class="row col-lg-3 col-md-6 col-sm-12">
                 <div class="card" style="width: 18rem;">
-                    <img src="images/leilani-angel.svg" class="card-img-top" alt="Fabian de Backer">
+                    <img src="images/matchmaking-4.jpg" class="card-img-top" alt="Fabian de Backer">
                     <div class="card-body">
                         <p class="card-text poppins-bold text-center">Fabian de Backer</p>
+                        <p><strong>Location:</strong> Breda Noord <br>
+                        <strong>Position:</strong> Attacker<br>
+                        <strong>Matches Played:</strong> 15<br>
+                        <strong>Last Played:</strong> Tuesday, March 10th 2026</p>
                     </div>
                 </div>
             </div>
@@ -136,12 +158,12 @@
         <!-- Grid container -->
         <div class="container pt-4">
             <!-- Section: Social media -->
-            <section class="mb-4">
+          
                 <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://www.tiktok.com/@ball4all24?_t=8lFnzxBAVn6&amp;_r=1" role="button" data-mdb-ripple-color="dark"><i class="fab fa-tiktok"></i> <img src="images/tiktok-icon.svg" width="30" alt="TikTok Icon"> </a>
 
                 <!-- Instagram -->
                 <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://www.instagram.com/ball4all24/" role="button" data-mdb-ripple-color="dark"><i class="fab fa-instagram"></i> <img src="images/instagram-white-icon.svg" width="30" alt="Instagram Icon"> </a>
-            </section>
+
             <!-- Section: Social media -->
         </div>
         <!-- Grid container -->
@@ -154,9 +176,10 @@
         <!-- Copyright -->
     </footer>
     <!-- end of footer -->
-	 <!-- jQuery, Popper.js, and Bootstrap JS -->
-  <script src="js/jquery-3.3.1.slim.min.js"></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+    <script src="js/jquery-3.4.1.min.js"></script> 
+    <!-- Include all compiled plugins (below), or include individual files as needed --> 
+    <script src="js/popper.min.js"></script> 
+    <script src="js/bootstrap-4.4.1.js"></script>
 
 </body></html>

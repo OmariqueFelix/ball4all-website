@@ -1,3 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
 
+.navbar {
+	background-color: #323C13 !important; 
+}

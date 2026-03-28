@@ -1,6 +1,8 @@
 @charset "utf-8";
 /* CSS Document */
-
+html{
+	 scroll-behavior: smooth;
+}
 .navbar {
 	background-color: #323C13 !important; 
 }
@@ -9,10 +11,12 @@
 	background-color: #323C13 !important;
 }
 
-.nav-link {
-	color: #EDEAE4 !important; 
+.navbar-corporate .nav-link {
+  color: #323C13 !important;
 }
-
+nav .nav-link {
+  color: #fff !important;
+}
 .btn {
 	background-color: #FF8B00 !important;
 }
@@ -80,6 +84,9 @@
 
 .card-text {
 	font-size: 13px;
+	color:#323C13;
+	letter-spacing: 0px;
+	margin-bottom: 8px;
 }
 
 .carousel-control-next {
@@ -101,6 +108,7 @@
 
 .sc-about{
 	background-color: #889600;
+	color: #323C13;
 
 }
 .sc-feedback{
@@ -145,6 +153,10 @@ header .jumbotron h2{
   	color: var(--text-muted);
   	letter-spacing: 1px;
   	margin-bottom: 36px;
+}
+.heading{
+	color:#323C13;
+	letter-spacing: 0px;
 }
 
 .btn-primary{
