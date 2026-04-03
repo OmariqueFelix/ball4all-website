@@ -3,6 +3,13 @@
 html{
 	 scroll-behavior: smooth;
 }
+#navbar-corporate .nav-link {
+  color: #323C13 !important;
+} 
+
+#navbar-corporate .nav-link:hover {
+  color: #FF8B00 !important;
+}
 .navbar {
 	background-color: #323C13 !important; 
 }
@@ -15,7 +22,7 @@ html{
   color: #323C13 !important;
 }
 nav .nav-link {
-  color: #fff !important;
+  color: #fff ;
 }
 .btn {
 	background-color: #FF8B00 !important;
