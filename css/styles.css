@@ -22,7 +22,7 @@ html{
   color: #323C13 !important;
 }
 nav .nav-link {
-  color: #fff ;
+  color: #fff !important;
 }
 .btn {
 	background-color: #FF8B00 !important;
